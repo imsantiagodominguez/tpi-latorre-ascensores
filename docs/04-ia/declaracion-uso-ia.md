@@ -1,10 +1,8 @@
 # Declaración de uso de inteligencia artificial
 
-En línea con la declaración de transparencia de la cátedra, se explicita qué asistentes de
-inteligencia artificial se utilizaron, con qué propósito y qué decisiones se tomaron sobre
+Se explicita qué asistentes de inteligencia artificial se utilizaron, con qué propósito y qué decisiones se tomaron sobre
 sus resultados. La asistencia no reemplazó el análisis: se usó para ordenar el trabajo,
-contrastar alternativas de modelado y corregir redacción, y cada resultado fue revisado y
-ajustado antes de incorporarlo.
+contrastar alternativas de modelado y corregir redacción, y cada resultado fue revisado y ajustado antes de incorporarlo.
 
 ## Herramientas utilizadas
 
@@ -48,8 +46,7 @@ El uso de asistentes de IA se limitó a tareas de estructuración, contraste y r
 decisiones de modelado, la definición de las reglas de negocio y la validación de los
 datos son propias: responden al conocimiento del circuito administrativo real de Latorre
 Ascensores. Todo resultado generado fue leído, corregido y, cuando correspondía,
-descartado. Asumo la responsabilidad intelectual sobre la totalidad del contenido de esta
-entrega.
+descartado.
 
 ---
 
