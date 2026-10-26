@@ -61,7 +61,7 @@ concreto en infinitivo. El mensaje explica qué cambia, no solo qué archivo se 
 | `build` | Scripts y herramientas de generación | `build: agrega script reproducible de diagramas` |
 | `chore` | Mantenimiento del repositorio | `chore: actualiza .gitignore` |
 
-Commits previstos en el historial:
+Commits del historial:
 
 1. `docs(bpmn): agrega criterios de modelado y leyenda de notación`
 2. `docs(bpmn): incorpora diagramas de facturación y pago a proveedores`
