@@ -2,7 +2,7 @@
 
 Las tres historias se desprenden del proceso modelado: no son funcionalidades inventadas,
 sino pasos del diagrama BPMN que el sistema debe sostener. Se gestionan en el
-[tablero del proyecto](https://github.com/users/imsantiagodominguez/projects/1) con las
+[tablero del proyecto](https://github.com/users/imsantiagodominguez/projects/3/views/1) con las
 columnas «Por hacer», «En progreso» y «Listo».
 
 | ID | Historia | Estado | Evidencia |
