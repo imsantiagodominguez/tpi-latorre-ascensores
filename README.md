@@ -16,7 +16,7 @@ clientes y proveedores.
 ## Accesos
 
 - **Repositorio:** https://github.com/imsantiagodominguez/tpi-latorre-ascensores
-- **Tablero de gestión:** https://github.com/users/imsantiagodominguez/projects/1
+- **Tablero de gestión:** https://github.com/users/imsantiagodominguez/projects/3/views/1
 - **Entrega 4 (PDF):** [`entregas/entrega-4-latorre-ascensores.pdf`](entregas/entrega-4-latorre-ascensores.pdf)
 
 ## Qué contiene este repositorio
@@ -97,7 +97,7 @@ duplicados (RN-02), datos mínimos del comprobante (RN-03), imputación explíci
 
 ## Backlog ágil
 
-El backlog se gestiona en el [tablero del proyecto](https://github.com/users/imsantiagodominguez/projects/1)
+El backlog se gestiona en el [tablero del proyecto](https://github.com/users/imsantiagodominguez/projects/3/views/1)
 con las columnas «Por hacer», «En progreso» y «Listo». Las tres historias se desprenden
 del proceso modelado: no son funcionalidades inventadas, sino pasos del diagrama que el
 sistema debe sostener.
