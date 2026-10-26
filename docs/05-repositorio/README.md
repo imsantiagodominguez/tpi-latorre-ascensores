@@ -49,6 +49,13 @@ Cada rama parte de `main`, agrupa una sola unidad de trabajo y se integra median
 Pull Request. La rama de BPMN es la principal porque concentra el modelado, las figuras y
 la revisión de notación; las demás agregan el backlog, el control y el cierre documental.
 
+| PR | Rama | Contenido | Estado |
+|---|---|---|---|
+| #4 | `feature/bpmn-facturacion` | BPMN, figuras PNG/SVG y script reproducible | Abierto; revisión de pares pendiente |
+| #5 | `feature/backlog-historias` | Tres historias de usuario y trazabilidad | Mergeado |
+| #6 | `docs/indicadores-control` | Indicadores y plan de pruebas | Mergeado |
+| #7 | `feature/entrega-4` | PDF de la entrega y esta documentación | Mergeado |
+
 ## Convención de commits
 
 Se usa una adaptación de Conventional Commits: tipo, alcance entre paréntesis y un objeto
@@ -88,10 +95,12 @@ Lista de verificación usada en la revisión:
 - [ ] Las reglas de negocio citadas existen en `docs/01-bpmn/`.
 - [ ] El estado del tablero coincide con el estado del PR.
 
-En la revisión del PR de BPMN se dejó constancia de dos controles concretos: que ningún
-flujo de mensaje cruce las etiquetas de los eventos y que todos los carriles —incluido el
-de Dirección— tengan al menos una actividad. Las figuras integradas ya incorporan ambas
-correcciones, de modo que la revisión no es un trámite: modifica el artefacto.
+La revisión de pares del PR de BPMN se realiza en la conversación del PR. La lista de
+verificación incluye dos controles concretos: que ningún flujo de mensaje cruce las
+etiquetas de los eventos y que todos los carriles —incluido el de Dirección— tengan al
+menos una actividad. Al cierre de esta versión, el PR #4 permanece abierto para esa
+revisión; las observaciones se resolverán en commits de la misma rama, de modo que la
+revisión modifica el artefacto y queda registrada en el historial.
 
 ## Tablero
 
@@ -100,9 +109,9 @@ historia de usuario. La tarjeta se mueve cuando se abre la rama y cuando el PR s
 
 | Tarjeta | Estado | Criterio de salida | Evidencia |
 |---|---|---|---|
-| HU-01 · Registrar y consultar comprobantes | Listo | Alta y consulta con control de duplicados | Figura 1.4.1 y PR de BPMN |
-| HU-02 · Registrar cobros y actualizar saldos | En progreso | Imputación y recálculo verificados | Plan de pruebas, CP-04 a CP-06 |
-| HU-03 · Alertas de morosidad y bloqueo | Por hacer | Consulta en menos de 3 segundos y bloqueo solo de trabajos no urgentes | Indicadores y CP-08 a CP-10 |
+| HU-01 · Registrar y consultar comprobantes | Listo | Alta y consulta con control de duplicados | Issue #1; PR #5; Figura 1.4.1 |
+| HU-02 · Registrar cobros y actualizar saldos | En progreso | Imputación y recálculo verificados | Issue #2; PR #5; CP-04 a CP-06 |
+| HU-03 · Alertas de morosidad y bloqueo | Por hacer | Consulta en menos de 3 segundos y bloqueo solo de trabajos no urgentes | Issue #3; indicadores y CP-08 a CP-10 |
 
 Cada tarjeta incluye la historia en formato Como/quiero/para, sus criterios de aceptación,
 la rama asociada y el enlace a la evidencia. El tablero es público para que la revisión
