@@ -10,7 +10,7 @@ documento de la Entrega 4.
 - **URL:** https://github.com/imsantiagodominguez/tpi-latorre-ascensores
 - **Rama estable:** `main`
 - **Pull Requests:** https://github.com/imsantiagodominguez/tpi-latorre-ascensores/pulls
-- **Tablero:** https://github.com/users/imsantiagodominguez/projects/1
+- **Tablero:** https://github.com/users/imsantiagodominguez/projects/3/views/1
 
 El repositorio es público y contiene la documentación técnica, las figuras en PNG y SVG,
 los scripts que las generan y el PDF de la entrega. La rama `main` es la versión estable:
