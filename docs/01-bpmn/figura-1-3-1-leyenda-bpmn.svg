@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504.72pt" height="168.464348pt" viewBox="0 0 504.72 168.464348" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-26T15:58:11.761218</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 168.464348 
+L 504.72 168.464348 
+L 504.72 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'Arial'; fill: #1f2933" transform="translate(58.544633 61.27224)">Evento de</text>
+    <text style="font-size: 9px; font-family: 'Arial'; fill: #1f2933" transform="translate(68.554321 70.140844)">inicio</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Arial'; fill: #1f2933" transform="translate(234.10125 61.27224)">Actividad</text>
+    <text style="font-size: 9px; font-family: 'Arial'; fill: #1f2933" transform="translate(208.589766 69.301313)">(manual o de usuario)</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'Arial'; fill: #1f2933" transform="translate(392.650679 60.488256)">Compuerta XOR</text>
+    <text style="font-size: 9px; font-family: 'Arial'; fill: #1f2933" transform="translate(406.405211 69.301313)">(decisión)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #1f2933" x="78.808696" y="146.164341" transform="rotate(-0 78.808696 146.164341)">Flujo de secuencia</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #1f2933" x="252.36" y="146.164341" transform="rotate(-0 252.36 146.164341)">Flujo de mensaje</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #1f2933" x="425.911304" y="147.11356" transform="rotate(-0 425.911304 147.11356)">Evento de fin</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 78.808696 41.929043 
+C 81.253845 41.929043 83.599177 40.957575 85.328159 39.228593 
+C 87.05714 37.499612 88.028609 35.15428 88.028609 32.70913 
+C 88.028609 30.263981 87.05714 27.918649 85.328159 26.189667 
+C 83.599177 24.460686 81.253845 23.489217 78.808696 23.489217 
+C 76.363546 23.489217 74.018214 24.460686 72.289233 26.189667 
+C 70.560251 27.918649 69.588783 30.263981 69.588783 32.70913 
+C 69.588783 35.15428 70.560251 37.499612 72.289233 39.228593 
+C 74.018214 40.957575 76.363546 41.929043 78.808696 41.929043 
+z
+" clip-path="url(#pe9d6c4a835)" style="fill: #ffffff; stroke: #1f2933; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 229.581391 45.18313 
+L 275.138609 45.18313 
+Q 280.562087 45.18313 280.562087 39.759652 
+L 280.562087 25.658609 
+Q 280.562087 20.23513 275.138609 20.23513 
+L 229.581391 20.23513 
+Q 224.157913 20.23513 224.157913 25.658609 
+L 224.157913 39.759652 
+Q 224.157913 45.18313 229.581391 45.18313 
+z
+" clip-path="url(#pe9d6c4a835)" style="fill: #ffffff; stroke: #1f2933; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 425.911304 19.150435 
+L 439.47 32.70913 
+L 425.911304 46.267826 
+L 412.352609 32.70913 
+z
+" clip-path="url(#pe9d6c4a835)" style="fill: #ffffff; stroke: #1f2933; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 53.693993 114.061304 
+Q 78.810604 114.061304 102.647947 114.061304 
+" style="fill: none; stroke: #2f3b45; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 99.707947 112.661304 
+L 102.647947 114.061304 
+L 99.707947 115.461304 
+z
+" style="fill: #2f3b45; stroke: #2f3b45; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 225.242609 114.061304 
+L 279.477391 114.061304 
+" clip-path="url(#pe9d6c4a835)" style="fill: none; stroke-dasharray: 4.4,2.42; stroke-dashoffset: 0; stroke: #6b7785; stroke-width: 1.1"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 425.911304 123.281217 
+C 428.356454 123.281217 430.701786 122.309749 432.430767 120.580767 
+C 434.159749 118.851786 435.131217 116.506454 435.131217 114.061304 
+C 435.131217 111.616155 434.159749 109.270823 432.430767 107.541841 
+C 430.701786 105.81286 428.356454 104.841391 425.911304 104.841391 
+C 423.466155 104.841391 421.120823 105.81286 419.391841 107.541841 
+C 417.66286 109.270823 416.691391 111.616155 416.691391 114.061304 
+C 416.691391 116.506454 417.66286 118.851786 419.391841 120.580767 
+C 421.120823 122.309749 423.466155 123.281217 425.911304 123.281217 
+z
+" clip-path="url(#pe9d6c4a835)" style="fill: #ffffff; stroke: #1f2933; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle; fill: #1f2933" x="252.36" y="34.779443" transform="rotate(-0 252.36 34.779443)">Tarea</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'Arial'; text-anchor: middle; fill: #1f2933" x="425.911304" y="35.297021" transform="rotate(-0 425.911304 35.297021)">×</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 270.629813 114.061304 
+Q 274.053497 114.061304 276.197915 114.061304 
+" style="fill: none; stroke: #6b7785; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 273.257915 112.661304 
+L 276.197915 114.061304 
+L 273.257915 115.461304 
+z
+" style="fill: #6b7785; stroke: #6b7785; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe9d6c4a835">
+   <rect x="2.88" y="2.88" width="498.96" height="162.704348"/>
+  </clipPath>
+ </defs>
+</svg>
