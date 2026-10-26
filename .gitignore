@@ -1,0 +1,20 @@
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Temporales de Office
+~$*
+*.tmp
+*.bak
+
+# Salidas locales de los scripts
+/build/
+*.log
