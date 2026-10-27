@@ -39,26 +39,16 @@ Cubre el circuito de ingreso: desde que un técnico termina un trabajo hasta que
 recalcula el saldo y evalúa la morosidad. Intervienen el pool del cliente, el carril de
 Operaciones/Técnico, el de Administración y el del Sistema/Aplicación.
 
-1. **Cierre técnico.** Al finalizar un mantenimiento, una reparación o una instalación, el
-   técnico carga el parte digital. Ese registro dispara el control de facturación.
-2. **Revisión.** Administración consulta la lista de trabajos terminados sin facturar y
-   selecciona el que corresponde procesar.
-3. **Validación.** Se verifica cliente, servicio e importe. Si faltan datos, el parte
-   vuelve al técnico para su corrección y reingresa al circuito.
-4. **Registro del comprobante.** Se ingresa el comprobante y se lo vincula al cliente y al
-   período.
-5. **Condición de venta.** Si es al contado se registra también el cobro; si es a cuenta
-   corriente, el importe se incorpora al saldo pendiente.
-6. **Emisión y envío.** El comprobante se emite y se envía al cliente, que lo recibe y
-   abona.
-7. **Registro del cobro.** Administración identifica al cliente y registra el recibo,
-   vinculándolo a uno o más comprobantes cuando corresponde.
-8. **Imputación.** El sistema aplica el importe al saldo de los comprobantes vinculados y
-   verifica los datos mínimos del movimiento.
-9. **Recálculo.** Se calcula la deuda pendiente, contemplando pagos completos o parciales,
-   y se evalúa la morosidad.
-10. **Control y alerta.** Si persiste deuda vencida se emite una alerta y se bloquean los
-    trabajos no urgentes; si no hay deuda vencida, la cuenta queda al día.
+1. **Cierre técnico.** Al finalizar un mantenimiento, una reparación o una instalación, el técnico carga el parte digital. Ese registro actúa como disparador del control de facturación.
+2. **Revisión.** Administración consulta la lista de trabajos terminados que todavía no fueron facturados y selecciona el que corresponde procesar.
+3. **Validación.** Se verifica el cliente, el servicio prestado y el importe a facturar. Si faltan datos, el parte vuelve al técnico para su corrección y reingresa al circuito.
+4. **Registro del comprobante.** Administración ingresa el comprobante y lo vincula al cliente y al período correspondiente.
+5. **Condición de venta.** Si la operación es al contado, se registra la factura y el cobro correspondiente una sola vez. Si es a cuenta corriente, el importe de la factura se incorpora al saldo pendiente del cliente.
+6. **Emisión y envío.** El comprobante se emite y se envía al cliente. En las operaciones al contado, el pago ya queda registrado junto con la operación; en las operaciones a cuenta corriente, el cliente puede abonarlo posteriormente.
+7. **Registro del cobro.** Cuando el cliente realiza un pago de una operación a cuenta corriente, Administración registra el recibo o movimiento de cobro y lo vincula con uno o más comprobantes pendientes.
+8. **Imputación.** El sistema aplica el importe recibido a los comprobantes vinculados, verificando los datos del movimiento y evitando imputaciones duplicadas.
+9. **Recálculo.** El sistema calcula el saldo que queda pendiente, contempla los pagos completos o parciales y determina si existen facturas vencidas.
+10. **Control y alerta.** Si persiste deuda vencida, se genera una alerta y se restringe la autorización de trabajos no urgentes. Si no existe deuda vencida, la cuenta se considera al día. Las situaciones urgentes se atienden de acuerdo con los criterios de seguridad establecidos.
 
 Las excepciones están modeladas de forma explícita: la compuerta «¿Datos completos?»
 devuelve el parte a Operaciones antes de facturar; «¿Pago total?» distingue entre cancelar
