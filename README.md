@@ -44,15 +44,17 @@ tpi-latorre-ascensores/
 │   ├── 03-control/
 │   │   ├── indicadores.md
 │   │   └── plan-de-pruebas.md
-│   ├── 04-ia/
-│   │   └── declaracion-uso-ia.md
-│   └── 05-repositorio/
-│       └── README.md
-├── scripts/
-│   ├── bpmn_lib.py
-│   └── make_diagrams.py
+│   └── 04-ia/
+│       └── declaracion-uso-ia.md
+│   
+│ 
 └── entregas/
-    └── entrega-4-latorre-ascensores.pdf
+    │
+    │── entrega-1-latorre-ascensores.pdf
+    │── entrega-2-latorre-ascensores.pdf
+    │── entrega-3-latorre-ascensores.pdf
+    │── entrega-4-latorre-ascensores.pdf
+    └── Entrega consolidada (E1-E2-E3-E4) de OE-version_final
 ```
 
 Los diagramas se versionan en **PNG** —para insertarlos en el documento— y en **SVG**
