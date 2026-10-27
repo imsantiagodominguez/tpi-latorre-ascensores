@@ -31,6 +31,35 @@ tpi-latorre-ascensores/
 └── entregas/                     PDF de la Entrega 4
 ```
 
+tpi-latorre-ascensores/
+├── README.md                                   presentación, alcance y declaración de IA
+├── .gitignore
+├── docs/
+│   ├── 01-bpmn/                                modelado, figuras y reglas de negocio
+│   │   ├── README.md
+│   │   ├── figura-1-3-1-leyenda-bpmn.png
+│   │   ├── figura-1-3-1-leyenda-bpmn.svg
+│   │   ├── figura-1-4-1-bpmn-facturacion-cobro.png
+│   │   ├── figura-1-4-1-bpmn-facturacion-cobro.svg
+│   │   ├── figura-1-5-1-bpmn-proveedores-pagos.png
+│   │   └── figura-1-5-1-bpmn-proveedores-pagos.svg
+│   ├── 02-backlog/                             tres historias de usuario
+│   │   └── historias-de-usuario.md
+│   ├── 03-control/                             indicadores y plan de pruebas
+│   │   ├── indicadores.md                      
+│   │   └── plan-de-pruebas.md
+│   │── 04-ia/                                  declaración ampliada de uso de IA
+│   │   └── declaracion-uso-ia.md               
+│   └── 05-repositorio/                         este documento
+│       └── README.md
+└── entregas/                                   PDFs de las Entregas 1, 2, 3, 4 y consolidada (1-4)
+    │── entrega-1-latorre-ascensores.pdf
+    │── entrega-2-latorre-ascensores.pdf
+    │── entrega-3-latorre-ascensores.pdf
+    │── entrega-4-latorre-ascensores.pdf
+    └── Entrega consolidada (E1-E2-E3-E4) de OE-version_final
+```
+
 Cada carpeta de `docs/` corresponde a una unidad de trabajo y a una rama. Así, el
 historial del repositorio permite reconstruir qué se hizo, en qué orden y con qué
 justificación.
