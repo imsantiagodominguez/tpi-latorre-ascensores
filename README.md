@@ -44,12 +44,11 @@ tpi-latorre-ascensores/
 │   ├── 03-control/
 │   │   ├── indicadores.md
 │   │   └── plan-de-pruebas.md
-│   └── 04-ia/
-│       └── declaracion-uso-ia.md
-│   
-│ 
+│   │── 04-ia/
+│   │   └── declaracion-uso-ia.md
+│   └── 05-repositorio/
+│       └── README.md
 └── entregas/
-    │
     │── entrega-1-latorre-ascensores.pdf
     │── entrega-2-latorre-ascensores.pdf
     │── entrega-3-latorre-ascensores.pdf
