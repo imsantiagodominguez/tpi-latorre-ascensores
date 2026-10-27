@@ -164,15 +164,6 @@ los indicadores contra las metas de la Entrega 2.
 Prompts, resultados y criterio de uso responsable:
 [`docs/04-ia/declaracion-uso-ia.md`](docs/04-ia/declaracion-uso-ia.md).
 
-## Reproducir los diagramas
-
-```bash
-pip install matplotlib
-python scripts/make_diagrams.py
-```
-
-El script escribe las figuras en `docs/01-bpmn/` en PNG (300 dpi) y SVG.
-
 ---
 
 Santiago Dominguez · Comisión 10 · Organización Empresarial · UTN TUPAD · Octubre de 2026
