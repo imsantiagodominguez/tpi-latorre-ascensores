@@ -17,7 +17,11 @@ clientes y proveedores.
 
 - **Repositorio:** https://github.com/imsantiagodominguez/tpi-latorre-ascensores
 - **Tablero de gestión:** https://github.com/users/imsantiagodominguez/projects/3/views/1
+- **Entrega 1 (PDF):** [`entregas/entrega-1-latorre-ascensores.pdf`](entregas/entrega-1-latorre-ascensores.pdf)
+- **Entrega 2 (PDF):** [`entregas/entrega-2-latorre-ascensores.pdf`](entregas/entrega-2-latorre-ascensores.pdf)
+- **Entrega 3 (PDF):** [`entregas/entrega-3-latorre-ascensores.pdf`](entregas/entrega-3-latorre-ascensores.pdf)
 - **Entrega 4 (PDF):** [`entregas/entrega-4-latorre-ascensores.pdf`](entregas/entrega-4-latorre-ascensores.pdf)
+- **Entrega Consolidada (PDF):** [`entregas/Entrega consolidada (E1-E2-E3-E4) de OE-version_final.pdf`](entregas/entrega-consolidada-(E1-E2-E3-E4)-de-OE-version_final.pdf)
 
 ## Qué contiene este repositorio
 
